@@ -1,0 +1,43 @@
+/* Skills Section */
+.Skills {
+    padding: 100px 100px 50px 100px;
+    background-color: #FDFDC8;
+    color: rgb(163, 8, 129);
+    color: black;
+}
+
+.Skills h1 {
+    font-size: 4em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.ProgLanguage {
+    margin-bottom: 50px;
+}
+
+.ProgLanguage h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #a30881;
+}
+
+.iconsLanguage {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    padding-left: 0;
+    font-size: 20px;
+}
+
+.iconsLanguage li {
+    display: flex;
+    align-items: center;
+    font-size: 1.2em;
+    gap: 12px;
+    background-color: rgba(226, 204, 240, 0.267);
+    padding: 12px 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(219, 5, 5, 0.15);
+}

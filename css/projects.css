@@ -1,0 +1,63 @@
+.projects-table-section {
+  background-color: #eae1f9; /* light purple like the image */
+  padding: 60px 30px;
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.main-heading {
+  font-size: 3em;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #2f1e1e;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.projects-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.projects-table th,
+.projects-table td {
+  padding: 18px 25px;
+  font-size: 1.2em;
+  border-bottom: 1px solid #ddd;
+  color: #3a2b2b;
+}
+
+.projects-table th {
+  background-color: #c2b6e6;
+  color: #2f1e1e;
+  text-transform: uppercase;
+  font-size: 1em;
+  letter-spacing: 1px;
+}
+
+.projects-table td:first-child {
+  color: #27ae60; /* green text for statuses */
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.projects-table tr:last-child td {
+  border-bottom: none;
+}
+
+
+.footer {
+  background-color: #4e9460; /* Match green from image */
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.95em;
+  letter-spacing: 0.5px;
+}
